@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22E261" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Bus" representedClassName="Bus" syncable="YES" codeGenerationType="class">
+        <attribute name="busId" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="deptTime" attributeType="Date" defaultDateTimeInterval="705459600" usesScalarValueType="NO"/>
+        <attribute name="seatCapacity" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="startTime" attributeType="Date" defaultDateTimeInterval="705459600" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Employee" representedClassName="Employee" syncable="YES" codeGenerationType="class">
+        <attribute name="employeeId" optional="YES" attributeType="String"/>
+        <attribute name="employeeName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="TravelRecord" representedClassName="TravelRecord" syncable="YES" codeGenerationType="class">
+        <attribute name="bookedTime" optional="YES" attributeType="Date" defaultDateTimeInterval="705485640" usesScalarValueType="NO"/>
+        <attribute name="busId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="empId" optional="YES" attributeType="String"/>
+        <attribute name="empName" optional="YES" attributeType="String"/>
+        <attribute name="seatCode" optional="YES" attributeType="String"/>
+    </entity>
+</model>
